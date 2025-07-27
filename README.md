@@ -6,9 +6,9 @@ This project is a fully **offline**, **persona-aware**, and **lightweight** syst
 
 ## 📦 Project Structure
 
-challenge_b/
-│
-├── main3.py # Main pipeline script
+challenge_b/<br>
+│<br>
+├── main3.py # Main pipeline script<br>
 ├── local_reranker.py # ONNX-based reranker logic
 ├── titles.py # PDF heading extractor (font-size/layout-based)
 ├── models/ # Local models: TinyLlama & BGE-reranker
