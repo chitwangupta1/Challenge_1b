@@ -85,30 +85,30 @@ Summarizes top sections using TinyLlama via llama-cpp-python.
 
 Works entirely offline using quantized .gguf weights.
 
-5. Output Structure
-{
-  "metadata": {
-    "input_documents": ["doc1.pdf"],
-    "persona": "Travel Planner",
-    "job_to_be_done": "Plan a 4-day trip...",
-    "processing_timestamp": "2025-07-27T..."
-  },
-  "extracted_sections": [
-    {
-      "document": "doc1.pdf",
-      "section_title": "Suggested Itinerary...",
-      "importance_rank": 1,
-      "page_number": 2
-    }
-  ],
-  "subsection_analysis": [
-    {
-      "document": "doc1.pdf",
-      "refined_text": "As a Travel Planner, you should...",
-      "page_number": 2
-    }
-  ]
-}
+5. Output Structure<br>
+{<br>
+  "metadata": {<br>
+    "input_documents": ["doc1.pdf"],<br>
+    "persona": "Travel Planner",<br>
+    "job_to_be_done": "Plan a 4-day trip...",<br>
+    "processing_timestamp": "2025-07-27T..."<br>
+  },<br>
+  "extracted_sections": [<br>
+    {<br>
+      "document": "doc1.pdf",<br>
+      "section_title": "Suggested Itinerary...",<br>
+      "importance_rank": 1,<br>
+      "page_number": 2<br>
+    }<br>
+  ],<br>
+  "subsection_analysis": [<br>
+    {<br>
+      "document": "doc1.pdf",<br>
+      "refined_text": "As a Travel Planner, you should...",<br>
+      "page_number": 2<br>
+    }<br>
+  ]<br>
+}<br>
 📌 Features
 ✅ Runs fully offline
 ✅ Persona-aware extraction
