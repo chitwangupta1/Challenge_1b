@@ -9,18 +9,21 @@ This project is a fully **offline**, **persona-aware**, and **lightweight** syst
 challenge_b/<br>
 │<br>
 ├── main3.py # Main pipeline script<br>
-├── local_reranker.py # ONNX-based reranker logic
-├── titles.py # PDF heading extractor (font-size/layout-based)
-├── models/ # Local models: TinyLlama & BGE-reranker
+├── local_reranker.py # ONNX-based reranker logic<br>
+├── titles.py # PDF heading extractor (font-size/layout-based)<br>
+├── models/ # Local models: TinyLlama & BGE-reranker<br>
+│ ├── BGE-reranker<br>
+│ └── TinyLlama<br>
+│ └── bge-small-en-v1.5a<br>
+│ <br>
+├── sample_pdfs/<br>
+│ ├── Collection 1/<br>
+│ │ ├── PDFs/<br>
+│ │ └── challenge1b_input.json<br>
+│ └── Collection 2/...<br>
 │
-├── sample_pdfs/
-│ ├── Collection 1/
-│ │ ├── PDFs/
-│ │ └── challenge1b_input.json
-│ └── Collection 2/...
-│
-├── output/
-│ └── outputCollection1.json # Output JSON per collection
+├── output/<br>
+│ └── outputCollection1.json # Output JSON per collection<br>
 
 
 ---
