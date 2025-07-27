@@ -51,6 +51,7 @@ Create a `challenge1b_input.json` file inside `sample_pdfs/Collection X/`:
     { "filename": "doc2.pdf" }
   ]
 }
+```
 Place all referenced PDFs inside sample_pdfs/Collection X/PDFs/.
 
 ▶️ Run the App
